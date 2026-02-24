@@ -1,0 +1,102 @@
+{
+  "id": 7,
+  "title": "terminal 7",
+  "description": "derin bir nefes",
+  "objective": "Liman ağına sız ve 'Lockdown' protokolünü devre dışı bırak.",
+  "target": "192.168.7.50",
+  "season": 1,
+  "episodeNumber": 7,
+  "vpnReq": true,
+  "phone": {
+    "enabled": true,
+    "appData": {
+      "MDT": {
+        "records": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Clyde",
+            "isHacker": true
+          },
+          {
+            "firstName": "Jojo Dubaku",
+            "lastName": "Magnus",
+            "isHacker": true
+          },
+          {
+            "firstName": "Tyrone",
+            "lastName": "Lewis",
+            "isHacker": true
+          },
+          {
+            "firstName": "Zero",
+            "lastName": "Reed",
+            "isHacker": true
+          },
+          {
+            "firstName": "Reggie",
+            "lastName": "Christ",
+            "isHacker": true
+          },
+          {
+            "firstName": "Cope",
+            "lastName": "Tim",
+            "isHacker": true
+          }
+        ]
+      },
+      "OmniWatch": {
+        "requiredIp": "192.168.7.50",
+        "cameras": [
+          {
+            "id": "CAM-PRT-01",
+            "name": "Liman Ana Giriş (Kuzey Kapısı)",
+            "street": "Terminal Yolu",
+            "feed": "Kırmızı 'LOCKDOWN' çakar lambaları tüm alanı aydınlatıyor. İki ağır zırhlı gümrük muhafaza aracı girişleri tamamen kapatmış durumda. Şiddetli yağmur görüşü düşürüyor."
+          },
+          {
+            "id": "CAM-PRT-02",
+            "name": "Terminal 7 - Gate A (Dış Mekan)",
+            "street": "Konteyner Yükleme Alanı",
+            "feed": "Devasa hidrolik kapı mühürlenmiş. Kamera açısının sağ alt köşesinde, karanlık konteyner bloğunun arkasında farları sönük siyah bir minibüs bekliyor. Sabit."
+          },
+          {
+            "id": "CAM-PRT-03",
+            "name": "Güvenlik Kulübesi (İç Mekan)",
+            "street": "Gate A Kontrol Noktası",
+            "feed": "İçerideki nöbetçi panik halinde telsizle konuşuyor. Kameranın netlediği ana monitörün sağ alt köşesinde sarı bir yapışkan not (Post-it) var. Üzerinde el yazısıyla şu okunuyor: 'admin hesabı için geçici şifre: dock_master_99'"
+          },
+          {
+            "id": "CAM-PRT-04",
+            "name": "Rıhtım Vinci (Panoramik)",
+            "street": "Vinç No: 4 - Tepe Kamerası",
+            "feed": "Karanlık okyanus suları... Sahil Güvenlik devriye teknesinin projektörü limanın güney ucundaki konteynerleri tarıyor. Işığın Gate A'ya ulaşmasına tahmini 3 dakika kaldı."
+          },
+          {
+            "id": "CAM-PRT-05",
+            "name": "X-Ray Gümrük Tarama Tüneli",
+            "street": "Gümrük Hattı B",
+            "feed": "Tünel içi ana aydınlatma kapalı, sadece kırmızı acil durum ışıkları dönüyor. Yürüyen bant üzerinde güvenlik kontrolü yarıda kalmış, terk edilmiş bir ticari konteyner duruyor."
+          },
+          {
+            "id": "CAM-AIR-09",
+            "name": "NYPD Havacılık (Helikopter FLIR)",
+            "street": "Kuşbakışı - Doğu Rıhtımı",
+            "feed": "[TERMAL AKTİF] Güçlü rüzgar nedeniyle görüntü sürekli titriyor. Helikopterin projektörü boş konteyner labirentlerini yukarıdan tarıyor. Şimdilik kör noktadalar, ısı imzası yok."
+          },
+          {
+            "id": "CAM-PRT-06",
+            "name": "Terminal İşçileri Kafeteryası",
+            "street": "İdari Bina - Zemin Kat",
+            "feed": "Oda tamamen boşaltılmış. Masalardan birinin üzerinde dumanı tüten bir bardak ve devrilmiş sandalyeler var. 'Lockdown' sireni çaldığında herkesin panikle çıktığı belli oluyor."
+          },
+          {
+            "id": "CAM-PRT-07",
+            "name": "Dalgakıran ve İskele Altı",
+            "street": "Terminal 7 - Su Hattı",
+            "feed": "Night Vision devrede. Dalgalar iskelenin beton ayaklarına şiddetle çarpıyor. Suda yüzen birkaç kırık palet dışında hareket yok. Şiddetli yağmur yüzünden görüş mesafesi 5 metreye düşmüş."
+          }
+        ]
+      }
+    }
+  }
+}

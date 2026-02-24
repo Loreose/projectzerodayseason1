@@ -1,0 +1,22 @@
+[[Terminal açık, {USER} ve SPEC bağlantı kurdu.]]
+[SPEC]: Sabah sabah aktif olman şaşırtmadı düşünüyorsun değil mi?
+[{USER}]: Hah.. Hayır sadece çalışıyordum.
+[SPEC]: Hmm- Peki öyle olsun madem (esner) canım kahve çekti. 
+[{USER}]: Haaa, peki sipariş ver.
+[SPEC]: Yok sen sipariş ver.
+[{USER}]: (anlamsız bir surat ifadesi takınır) Nereye vereceğim SpeC? Deli misin? Uyku sersemi mi? Git yüzünü yıka.
+[SPEC]: Ciddiyim. Sen sipariş ver.
+[{USER}]: Dostum eğer dalga geçeceksen bu işte yokum bilgin olsun.
+[SPEC]: Klasörlerini incelemeni öneririm {USER}. Adresim orada (sırıtır).
+[{USER}]: (sırıtır) Adresini verecek kadar aptal değilsindir.
+[SPEC]: Sadece oku, sabah kahvemi içmek istiyorum.
+[{USER}]: Peki...
+[GÖREV]: Bit & Byte Coffee sitesine sız, bir kahve sipariş ver.
+[SAHNE SONU]
+[TASK:task_1]
+[{USER}]: Bu muydu yani.
+[SPEC]: Birde adresimi vereceğimi mi sandın? Komiksin.
+[{USER}]: Yani.. bu bir testi.
+[SPEC]: Evet bu bir testti korumasız bir site ne yapabileceğini görmek istedim, (kendi kendine konuşur) gerçi ne yapabildiğini biliyorum ama.
+[{USER}]: Her neyse. Beni eğer test edeceksen daha iyi bir şekilde yapmalısın.
+[SPEC]: (güler) Sevdim seni {USER}.

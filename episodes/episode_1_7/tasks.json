@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "submit",
+      "target": "GATE_OPEN:NY-882-ALPHA",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

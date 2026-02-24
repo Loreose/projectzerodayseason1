@@ -1,0 +1,37 @@
+[[Terminal açık, {USER} bağlantı kurmuş.]]
+[{USER}]: (iç çeker) Pffff- sıkıntıdan patlıyoruz ya.
+[[MEDUSA terminale giriş sağladı.]]
+[{USER}]: Sen kimsin?
+[MEDUSA]: Selam sabah yok mu {USER}?
+[{USER}]: Peki-- sen SpeC'in arkadaşısın?
+[MEDUSA]: Evet, ben Medusa.
+[{USER}]: Memnun oldum Medusa.
+[MEDUSA]: Bende.
+[{USER}]: Bir arkadaşın daha yok muydu?
+[MEDUSA]: Evet, var. Ama bugün gelmeyecek.
+[ADDFUND, 0.1, 0x1fg01encrypted_data, spec]
+[NOTIFY, CryptoWallet, "0.1BTC hesabına eklendi."]
+[{USER}]: Peki... var mı bir görevim?
+[MEDUSA]: Evet, var.
+[{USER}]: (anlamsız bir ifade takındı) Peki... Nedir?
+[MEDUSA]: Biraz çimlere basmak.
+[{USER}]: Nasıl?
+[MEDUSA]: Dışarı çık çimlere bas biraz, SpeC geceleri uyumadığını falan söyledi.
+[{USER}]: Hah. Benden bahsetti yani.
+[MEDUSA]: SpeC olmasa bile ben seni tanıyorum {USER}.
+[{USER}]: Tanıyorsun?
+[MEDUSA]: Evet, tanıyorum. SpeC'in bir arkadaşısın.
+[{USER}]: Hah. Hah. Evet SpeC'in arkadaşıyım. (sahte bir gülümseme yapar)
+[MEDUSA]: Dediğim gibi görevin çimlere basmak.
+[{USER}]: Peki dışarı çıkarım. Yürürüm biraz.
+[MEDUSA]: Güzel, yarın görüşürüz {USER}.
+[{USER}]: Görüşürüz Medusa.
+[[MEDUSA terminalden çıkış sağladı.]]
+[{USER}]: Bu neydi ya şimdi?
+[[{USER} Terminalden çıkış sağladı.]]
+[{USER}]: Gerçekten biraz dışarı çıksam iyi olur gibi.
+[{USER} dışarı çıktı, akşam saatleri, sokakta kimse yok. Kapşonu kafasında, ağzında kürdan çeviriyor. Sokak lambalarını takip ediyor.]
+[{USER} kafasını yukarı çevirip gökyüzüne baktı, kafasını aşağı indirdiğinde, bir sokak lambasının altında bir süliet belirdi. {USER} duraksadı.]
+[{USER}, silüete baka kaldı, bir süre sonra silüet, kendi sağına dönerek bina arasından kayboldu.]
+[{USER}]: Bu neydi şimdi? O kimdi.
+[{USER}]: Onlardan mı...

@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "submit",
+      "target": "{USER}",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

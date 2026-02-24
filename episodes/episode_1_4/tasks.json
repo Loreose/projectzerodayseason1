@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "command",
+      "target": "ssh sec_admin@212.45.10.89",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "task_2",
+      "type": "submit",
+      "target": "4491-SEC",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "Kuyumcu soygunu için, güvenlik sistemlerini devre dışı bırak. Bu bir gerçek görev, tüm ciddiyetinle yapmanı istiyorum, Medusa ve Gl1tch'e yardım et. -SpeC",
+        "executable": false
+      }
+    ],
+    "remoteServers": [
+      {
+        "ip": "212.45.10.89",
+        "htmlResponse": "<html><title>Velasquez Security Gateway</title><body><p>Güvenlik Protokolü v4.0 Aktif</p></body></html>",
+        "user": "sec_admin",
+        "password": "diamond_vault_99",
+        "fileSystem": {
+          "root": "/",
+          "directories": [
+            {
+              "name": "sys",
+              "directories": [
+                {
+                  "name": "security",
+                  "files": [
+                    {
+                      "name": "config.sys",
+                      "content": "[SECURITY_CONFIG]\nALARM_SYSTEM=ACTIVE\nMOTION_SENSORS=ENABLED\nLASER_GRID_ID=LG_772\nBYPASS_CODE=4491-SEC\nNOT: Alarmı susturmak için 'submit 4491-SEC' komutunu kullanın.",
+                      "executable": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

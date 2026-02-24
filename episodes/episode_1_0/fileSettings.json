@@ -1,0 +1,11 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "'identity --set <isim>' komutunu kullanarak takma adını ayarla ardından 'submit <isim>' komutu ile takma adını gönder, protocol gereği tek kullanım hakkın var dikkatli bir seçim yap -speC"
+      }
+    ]
+  }
+}

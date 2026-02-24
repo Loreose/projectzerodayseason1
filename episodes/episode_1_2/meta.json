@@ -1,0 +1,50 @@
+{
+  "id": 2,
+  "title": "yakalanma",
+  "description": "Benzinlikler neden gece açık olur ki?",
+  "objective": "Benzinlik POS terminaline sız ve son işlem kaydını bul.",
+  "target": "85.105.44.12",
+  "season": 1,
+  "episodeNumber": 2,
+  "vpnReq": true,
+  "internal_ip": "85.105.44.12",
+  "phone": {
+    "enabled": true,
+    "appData": {
+      "MDT": {
+        "records": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Clyde",
+            "isHacker": true
+          },
+          {
+            "firstName": "Jojo Dubaku",
+            "lastName": "Magnus",
+            "isHacker": true
+          },
+          {
+            "firstName": "Tyrone",
+            "lastName": "Lewis",
+            "isHacker": true
+          },
+          {
+            "firstName": "Zero",
+            "lastName": "Reed",
+            "isHacker": true
+          },
+          {
+            "firstName": "Reggie",
+            "lastName": "Christ",
+            "isHacker": true
+          },
+          {
+            "firstName": "Cope",
+            "lastName": "Tim",
+            "isHacker": true
+          }
+        ]
+      }
+    }
+  }
+}

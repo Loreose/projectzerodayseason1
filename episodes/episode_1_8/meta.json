@@ -1,0 +1,119 @@
+{
+  "id": 8,
+  "title": "oyun",
+  "description": "",
+  "objective": "Para aklamak için ekiple buluş, adamların yanına git. SpeC'i dinle.",
+  "target": "",
+  "season": 1,
+  "episodeNumber": 8,
+  "vpnReq": false,
+  "phone": {
+    "enabled": true,
+    "appData": {
+      "MDT": {
+        "records": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Clyde",
+            "isHacker": true
+          },
+          {
+            "firstName": "Jojo Dubaku",
+            "lastName": "Magnus",
+            "isHacker": true
+          },
+          {
+            "firstName": "Tyrone",
+            "lastName": "Lewis",
+            "isHacker": true
+          },
+          {
+            "firstName": "Zero",
+            "lastName": "Reed",
+            "isHacker": true
+          },
+          {
+            "firstName": "Reggie",
+            "lastName": "Christ",
+            "isHacker": true
+          },
+          {
+            "firstName": "Cope",
+            "lastName": "Tim",
+            "isHacker": true
+          },
+          {
+            "idNumber": "83920145K",
+            "firstName": "Tuco",
+            "lastName": "Thornel",
+            "dob": "08/14/1990",
+            "address": "Penthouse 4, Tribeca, NY",
+            "job": "Yatırım Bankacısı / Thornel Holdings CEO'su",
+            "gender": "Erkek",
+            "criminalRecord": [
+              "Dolandırıcılık ve Zimmete Para Geçirme (2012 - Delil Yetersizliğinden Beraat)",
+              "Kara Para Aklama Soruşturması (2020 - Kapatıldı)"
+            ],
+            "notes": "[NYPD FİNANSAL SUÇLAR BİRİMİ]: Şüpheli, paravan şirketler aracılığıyla büyük çaplı yasadışı fon transferleri organize etmektedir. Fiziksel müdahaleden kaçınır. Sorgularda ifade vermeme hakkını kullanır ve anında üst düzey hukuk danışmanlarını devreye sokar. İstihbarat raporları, şüphelinin yeraltı anlaşmalarında kasıtlı olarak son dakika pürüzleri çıkarıp karşı tarafı köşeye sıkıştıran bir profil çizdiğini belirtmektedir. Aktif izleme altındadır."
+          },
+          {
+            "idNumber": "44928109X",
+            "firstName": "Levan",
+            "lastName": "Kosta",
+            "dob": "11/02/1982",
+            "address": "Bilinmiyor (Son Bilinen Mülk: Brighton Beach, NY)",
+            "job": "Güvenlik Danışmanı / İthalat-İhracat",
+            "gender": "Erkek",
+            "criminalRecord": [
+              "Nitelikli Saldırı (2008 - Interpol Red Notice İptal Edildi)",
+              "Silah Kaçakçılığı (2015 - Balkanlar)",
+              "Gasp ve Haraç (2021 - NY, İki tanık mahkemeye çıkmadan ortadan kayboldu)"
+            ],
+            "notes": "[FBI / INTERPOL ORTAK GÖREV GÜCÜ]: Şahıs 'Silahlı ve Son Derece Tehlikeli' kategorisindedir. Thornel suç örgütünün baş infazcısı olarak değerlendirilmektedir. Askeri geçmişi nedeniyle taktiksel ateşli silah ve yakın dövüş eğitimi vardır. Sahada karşılaşıldığında gizli silah taşıdığı ve zırh delici mühimmat kullandığı kesin varsayılmalıdır. Doğrudan müdahale tavsiye edilmez, derhal taktiksel destek istenmelidir."
+          },
+          {
+            "idNumber": "392-881-C",
+            "firstName": "Elias",
+            "lastName": "Vance",
+            "dob": "05/22/1980",
+            "address": "Pier 14, Slip 3 (Tekne Kayıt Noktası)",
+            "job": "Yat Kaptanı / Deniz Lojistiği",
+            "gender": "Erkek",
+            "criminalRecord": [
+              "Kaçak Mal Sevkiyatı (2018 - Sahil Güvenlik Lisansı İptal Edildi)",
+              "Tutuklamadan Kaçma (2019)"
+            ],
+            "notes": "[NYPD LİMAN DEVRİYESİ / HARBOR UNIT]: Şüpheli, NY sularında sahil güvenlik radarı kör noktalarından yararlanma konusunda uzmandır. 'Lady of the Night' isimli kayıtlı teknesi, standart dışı yüksek beygirli kaçakçılık motorlarıyla modifiye edilmiş olabilir. Herhangi bir kolluk kuvveti baskınında anında demir alıp uluslararası sulara kaçma potansiyeli yüksektir. Kıyı emniyeti destek tekneleri olmadan yaklaşılmamalıdır."
+          },
+          {
+            "idNumber": "41092833R",
+            "firstName": "Chloe",
+            "lastName": "Chen",
+            "dob": "09/10/2005",
+            "address": "Apt 4B, DUMBO, Brooklyn, NY",
+            "job": "Siber Güvenlik Analisti / Freelance",
+            "gender": "Kadın",
+            "criminalRecord": [
+              "Siber İhlal ve Elektronik Dolandırıcılık (2017 - Şartlı Tahliye)",
+              "Yasadışı Dinleme/İzleme (2022 - Şüpheli)"
+            ],
+            "notes": "[NYPD SİBER SUÇLAR ŞUBESİ]: Hedef, üst düzey veri imhası ve kriptografi uzmanıdır. Thornel'ın iletişim ağlarını şifrelediğinden ve dinlemelere karşı aktif sinyal bozucular kullandığından şüphelenilmektedir. Sahada tutuklanması durumunda tüm elektronik cihazlarına anında el konulmalı ve ağ erişimini kesmek için Faraday çantası içinde muhafaza edilmelidir. Devriye araçlarının yerel ağlarına sızma ihtimali yüksektir."
+          },
+          {
+            "idNumber": "A-203847192",
+            "firstName": "Grigori",
+            "lastName": "Vlasov",
+            "dob": "12/03/1988",
+            "address": "Kayıt Dışı (Kaçak Göçmen Statüsü)",
+            "job": "Özel Güvenlik",
+            "gender": "Erkek",
+            "criminalRecord": [
+              "Kiralık Katil Şüphesi (NYPD Gang Task Force İzleme Listesi)"
+            ],
+            "notes": "[ORGANIZE SUÇLAR MASASI]: Resmi ABD kimlik kaydı bulunmamaktadır. Bratva (Rus Mafyası) bağlantılı yasadışı paralı asker olduğu değerlendirilmektedir. Suç örgütlerine çevre ve yüksek irtifa güvenliği sağlamaktadır. Balistik incelemeler, ağır kalibreli keskin nişancı tüfeği kullanabildiğini göstermektedir. Tespit edilmesi halinde çevredeki sivil personel tahliye edilmeli, açık alanda hedef olunmamalıdır."
+          }
+        ]
+      }
+    }
+  }
+}

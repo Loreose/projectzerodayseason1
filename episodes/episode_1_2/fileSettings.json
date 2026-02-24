@@ -1,0 +1,48 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "Verilen IP'yi curl ile araştır, benzinlik IP'sine sız. scan --local ile IP'de Internal ağını tara. Data dosyasını SpeC'e gönder.",
+        "executable": false
+      }
+    ],
+    "remoteServers": [
+      {
+        "name": "Gateway (Internal)",
+        "htmlResponse": "<html><title>Benzinlik</title><body><p>admin Login Required Not: 'Oğlum şu şifreyi değiştir dedim artık, 123 ne ya?'</p></body></html>",
+        "ip": "85.105.44.12",
+        "user": "admin",
+        "password": "123",
+        "fileSystem": {
+          "root": "/",
+          "files": []
+        }
+      },
+      {
+        "hostname": "pos_terminal",
+        "name": "POS_Terminal",
+        "htmlResponse": "<html><title>POS-Terminal</title><body><p>pos_user : pos_password_456</p></body></html>",
+        "ip": "192.168.1.50",
+        "user": "pos_user",
+        "password": "pos_password_456",
+        "internalOnly": true,
+        "gateway": "85.105.44.12",
+        "fileSystem": {
+          "root": "/",
+          "files": [
+            {
+              "name": "transactions.db",
+              "content": "[ENCRYPTED TRANSACTION LOGS]"
+            },
+            {
+              "name": "readme.txt",
+              "content": "POS System v4.2 - DO NOT TURN OFF"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+[[Terminal çevrimiçi, SPEC bağlantı kurdu.]]
+[{USER}]: (koltuğuna oturur, terminale bakınır.) Gece gece ne yapıyor bu burada.
+[[{USER} Terminale giriş sağladı.]]
+[{USER}]: SpeC?
+[SPEC]: Hah?! (gözlerini ovuşturur) Uyanıkmışsın.
+[{USER}]: Evet uyanığım da ne iş yapıyorsun saat kaç haberin var mı?
+[SPEC]: (güler) Saat kaç olursa olsun işim var.
+[{USER}]: Peki, ne iş yapıyorsun?
+[SPEC]: Kameralara bakıyorum.
+[{USER}]: Neden?
+[SPEC]: Kaplumbağa deden.
+[{USER}]: (Ciddi bir surat ifadesi takınır) Neden dedim?
+[SPEC]: (sırıtır) Para gerekiyor çünkü.
+[{USER}]: Hah, yeni görevim bu mu? Banka mı soyucaz, kuyumcu mu?
+[SPEC]: (güler) Hayır, daha basit.
+[{USER}]: Ne o zaman?
+[SPEC]: POS cihazları, bir süre bunlarla geçimimizi sağlayacağız.
+[{USER}]: POS cihazı nasıl soyulur ki?
+[SPEC]: Basit, Amerika'nın POS cihazları kredi kartlarının datalarını tutar.
+[SPEC]: Çoğu insan bunu bilmiyor ama (sırıtır) ben biliyorum.
+[{USER}]: Peki nasıl yapacağız?
+[SPEC]: POS cihazları benzinliğin IPlerine bağlı, önce sana verdiğim IP adresine sız, sonra internal olarak POS cihazına sızıcaz.
+[SPEC]: Ardından dataların saklandığı, dosyayı bulup bana göndereceksin.
+[{USER}]: Bu sırada sen uyuklayacak mısın?
+[SPEC]: (güler) Hayır, izleyeceğim.
+[SPEC]: Ayrıca VPN kullanmayı unutma, yoksa bilirsin. Yakalanmanı istemem (göz kırpar)
+[{USER}]: Bilirim, bilirim.
+[{USER}]: Başlıyorum.
+[SPEC]: Sendeyiz {USER}.
+[SAHNE SONU]
+[TASK:task_1]
+[SPEC]: Güzel, şimdi localde tarama yap.
+[{USER}]: Okaay, az sussan ya. Ne yapacağımı biliyorum ben.
+[SPEC]: (sırıtır, kendine kendine konuşur) Bildiğini ben biliyorum.
+[SAHNE SONU]
+[TASK:task_2]
+[SPEC]: İyi iş, paranın bir kısmı senin de payın, Bitcoin olarak yollayacağım.
+[{USER}]: Peki.
+[SPEC]: Yakında seni birileriyle tanıştırıcam, bir süre Japonya'ya gitmen gerekecek.
+[SPEC]: Ben yokken görevleri sana onlar verecek.
+[{USER}]: Anladım da, neden bana görev veriyorsun.
+[SPEC]: (güler) Çünkü sen yeteneklisin.
+[{USER}]: ?? Bana mı yürüyorsun?
+[SPEC]: Gay değilim {USER}.
+[{USER}]: Farkındayım.
+[SPEC]: Güzel hadi iyi geceler, paran yarın hesabında olur.
+
+
+

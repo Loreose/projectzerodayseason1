@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "submit",
+      "target": "order_list.txt",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

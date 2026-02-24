@@ -1,0 +1,58 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "Sistem 'Lockdown' modunda.\n\nGÖREV: Liman ağına sız ve kapıyı manuel olarak aç. ny-port.gov/terminal-7 \n\nHEDEF: 'gate_override.sys' protokolünü bul. Kapıyı açmak için sistemin istediği doğrulama anahtarını kargo manifestolarından (cargo_manifest) çıkar.",
+        "executable": false
+      }
+    ],
+    "remoteServers": [
+      {
+        "hostname": "ny-port.gov/terminal-7",
+        "htmlResponse": "<html><body>\n[NY PORT AUTHORITY - TERMINAL 7]\n<h1 style='color:red;'>STATUS: LOCKDOWN ENGAGED</h1>\n<p>Bütün operasyonlar durduruldu. Kapılar kilitli.</p>\n</body></html>",
+        "ip": "192.168.7.50",
+        "user": "admin",
+        "password": "dock_master_99",
+        "fileSystem": {
+          "root": "/",
+          "files": [
+            {
+              "name": "gate_override.sys",
+              "content": "[GÜVENLİK PROTOKOLÜ: LOCKDOWN OVERRIDE]\nSistem kilitliyken Gate A hidroliklerini serbest bırakmak için, limandan başarıyla çıkan 'SON KARGO'nun (Cleared Cargo) ID numarasını doğrulama kodu olarak girmeniz gerekmektedir.\n\nKullanım Formatı: submit GATE_OPEN:<KARGO_ID>\nÖrnek: submit GATE_OPEN:NY-123-TEST",
+              "executable": false
+            }
+          ],
+          "directories": [
+            {
+              "name": "security_logs",
+              "files": [
+                {
+                  "name": "lockdown_event.log",
+                  "content": "[04:28 AM] UYARI: Dış ağdan yetkisiz port taraması tespit edildi.\n[04:28 AM] EYLEM: Terminal 7 'Lockdown' (Kilitlenme) moduna alındı.\n[04:29 AM] DURUM: Tüm otomatik kapılar mühürlendi. Geliş/Gidiş durduruldu.\n[NOT]: Kapı sadece yetkili Override işlemi ile açılabilir.",
+                  "executable": false
+                }
+              ]
+            },
+            {
+              "name": "cargo_manifest",
+              "files": [
+                {
+                  "name": "today_shipments.csv",
+                  "content": "--- 22 ŞUBAT 2026 - SEVKİYAT LİSTESİ ---\n[01:15 AM] - KARGO: NY-441-DELTA -> DURUM: BEKLEMEDE\n[02:30 AM] - KARGO: NY-882-ALPHA -> DURUM: ÇIKIŞ YAPTI (CLEARED)\n[03:45 AM] - KARGO: NY-909-OMEGA -> DURUM: İPTAL / GÜMRÜKTE\n[04:10 AM] - KARGO: NY-112-ECHO -> DURUM: BEKLEMEDE",
+                  "executable": false
+                },
+                {
+                  "name": "pending_cargo.csv",
+                  "content": "İşlem bekleyen konteyner listesi:\n- Konteyner #4022 (Tehlikeli Madde)\n- Konteyner #8891 (Otomotiv Parçası)\n- Konteyner #0019 (Gıda - Soğuk Zincir)",
+                  "executable": false
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

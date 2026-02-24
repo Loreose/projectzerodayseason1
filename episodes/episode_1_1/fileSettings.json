@@ -1,0 +1,57 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "curl ve ssh komutlarını kullanarak sisteme bağlan, sipariş listesini speC'e gönder.",
+        "executable": false
+      }
+    ],
+    "remoteServers": [
+      {
+        "ip": "94.12.55.182",
+        "htmlResponse": "<html><title>Bit & Byte Coffee</title><body><!-- Dev: bitandbyte / admin123 --></body></html>",
+        "user": "bitandbyte",
+        "password": "admin123",
+        "fileSystem": {
+          "root": "/",
+          "directories": [
+            {
+              "name": "home",
+              "directories": [
+                {
+                  "name": "bitandbyte",
+                  "files": [
+                    {
+                      "name": "kamera_kayitlari.log",
+                      "content": "[INFO] 2026-02-14 08:15:22 - Hareket Algılandı: Ön Kapı (Müşteri Girişi)\n[INFO] 2026-02-14 09:44:10 - Hareket Algılandı: Arka Ofis (Yetkili Girişi)\n[WARN] 2026-02-14 11:30:05 - Kamera Sinyal Kaybı: Cihaz #04 (Mutfak)\n[ERROR] 2026-02-14 11:32:15 - Kayıt Hatası: Depolama Alanı Dolu!\n[INFO] 2026-02-14 13:00:44 - Hareket Algılandı: Ön Kapı (Kurye Teslimatı)\n[INFO] 2026-02-14 14:15:00 - Sistem Kontrolü: Tüm birimler aktif.",
+                      "executable": false
+                    },
+                    {
+                      "name": "bedava_kahve_kodlari.txt",
+                      "content": "SINGLE_SHOT_ESPRESSO: BB-8231-X\nFREE_LATTE_VALENTINE: LOVE-404-COFFEE\nHACKER_DISCOUNT_64: SUDO-COFFEE-ME\nUNLIMITED_REFILL: GHOST-IN-THE-MUG",
+                      "executable": false
+                    }
+                  ],
+                  "directories": [
+                    {
+                      "name": "orders",
+                      "files": [
+                        {
+                          "name": "order_list.txt",
+                          "content": "#892       | Americano        | 2    | Ödendi  | Masa 4\n#893       | Flat White       | 1    | Ödendi  | Paket\n#894       | Karışık Bitki Çayı| 1    | İptal   | Masa 12\n#895       | Siyah Kahve (Acı)| 5    | Ödendi  | Arka Köşe",
+                          "executable": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

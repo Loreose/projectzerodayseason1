@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "submit",
+      "target": "inject_alert.exe 10-13:QUEENS_BRIDGE",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

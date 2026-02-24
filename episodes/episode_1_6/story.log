@@ -1,0 +1,44 @@
+[ADDFUND, 0.02, 0x8as89encrypted_data, spec]
+[[[TIMESTAMP] 2026-02-22 04.15.00 EST]]
+[[[LOCATION] Brooklyn, Sector 4 - Güvenli Ev (Operasyon Kanalı)]]
+[[[PARTICIPANTS] SPEC, MEDUSA, {USER}]]
+[MEDUSA]: Ducky ve St4lker aracı garaja çekti. Mallar yüklendi. Motor çalışıyor.
+[SPEC]: Güzel. Çıkış rotamız ne durumda Medusa?
+[MEDUSA]: Güvenli evden limandaki yer altı deposuna kadar 4. Cadde üzerinden gidecekler. Ancak bir sorunumuz var. 4. Cadde ile 9. Sokak kesişiminde iki sivil polis aracı ve bir SWAT minibüsü bekliyor. Barikat kurmamışlar ama geçen her aracı ısı taramasından geçiriyorlar.
+[SPEC]: Eğer o minibüs ısı taramasından geçerse kasadaki elmasların yansımasını saniyeler içinde görürler. {USER}?
+[{USER}]: Evet. Kameraları kapatıp kör nokta mı yaratayım?
+[MEDUSA]: Hayır. Kameraların kapanması artık dikkat çekiyor. Sistem zaten dünkü "arıza" yüzünden tetikte. Oraya fiziksel olarak gitmeleri gerekiyor.
+[SPEC]: Aynen öyle. Onları o kavşaktan uzaklaştırman lazım {USER}. NYPD'nin Dispatch sistemine sızacaksın. Telsizlerinden acil bir ihbar geç. Öyle bir şey olsun ki, o kavşaktaki bütün birimler sirenlerini açıp şehre doğru son sürat gitsinler. 
+[{USER}]: Sahte bir 911 çağrısı yani. Nereye yönlendireyim?
+[MEDUSA]: Queens Köprüsü'ne. Oraya gitmeleri en az 15 dakikalarını alır, bu da Ducky'in limana ulaşması için fazlasıyla yeterli.
+[SPEC]: İçeri gir, telsiz anonsunu yap ve çık. Ducky'in minibüsü 3 dakika içinde garajdan çıkacak. O polisler oradan gitmezse hepimiz yanarız. Klavyeye geç.
+[[Terminal açık, MEDUSA, {USER} ve Ducky bağlantı kurdu.]]
+[{USER}]: (telsiz) Telsiz check.
+[Ducky]: (telsiz) 5 net duyuyorum.
+[MEDUSA]: (telsiz) 5 net.
+[GÖREV]: NYPD Dispatch sistemine sız, sahte bir 911 çağrısı yap ve polisleri Queens Köprüsü'ne yönlendir.
+[SAHNE SONU]
+[TASK:task_1]
+[[SİSTEM UYARISI] - 10-13 İhbarı Ağda Yayınlanıyor...]
+[TÜM BİRİMLERE ACİL ÇAĞRI QUEENS KÖPRÜSÜNDE MEMUR VURULDU. ÇATIŞMA DEVAM EDİYOR.]
+[Unit-8 Onayladı... Harekete Geçiyor.]
+[Unit-12 Onayladı... Harekete Geçiyor.]
+[SWAT-Alpha Onayladı... Barikat Kaldırıldı, Harekete Geçiyor.]
+[SPEC]: (Omuzuna vurarak) Yaptın... İnanılmaz.
+[SPEC]: Ayrıca telefonundaki o sistemi, sorgulamayacağım. Kuyumucuyuda bu sistem sayesinde soyabildik.
+[{USER}]: Ehh, eskiden kalma bir sistem, Gl1tch'in dediği şeyler doğruydu, sistem tamamen onun dediği gibi çalışıyor.
+[SPEC]: (Gülümseyerek) Her neyse.
+[MEDUSA]: (telsiz, sesi buz gibi) İhbar sisteme düştü. Ağda tam bir kaos var. Sinyali NYPD telsiz frekansına bağlıyorum. Dinleyin.
+[(Telsizden parazitli ve telaşlı polis sesleri yükselir)]
+[> [NYPD Dispatch] TÜM BİRİMLERE ACİL ÇAĞRI! 10-13! MEMUR VURULDU! LOKASYON QUEENS KÖPRÜSÜ! ÇATIŞMA DEVAM EDİYOR!]
+[> [Unit-12] Merkez, Unit-12 duydu. 4. Cadde barikatını terk ediyoruz! Queens'e yöneldik!]
+[> [Unit-8] Merkez, Unit-8 duydu. Queens yolundayız!]
+[> [SWAT-Alpha] SWAT-Alpha yolda! Lanet olsun, yolu açın!]
+[MEDUSA]: (telsiz) İşe yarıyor. Kavşaktaki bütün ısı tarayıcıları kapandı. Araçlar U-dönüşü yapıyor.
+[SPEC]: ({USER}'ın telsizinden konuşur) Ducky, duyuyor musun? Önünüz temizleniyor. Durumunuz ne?
+[DUCKY]: (telsiz, arkada motor ve lastik sesleri var) Duyuyorum SpeC! Minibüsün içindeyiz, St4lker yanımda ter döküyor. Polisler az önce yanımızdan sirenleri açık halde teğet geçti. Bizi fark etmediler bile. Adamın işe yaradı!
+[{USER}]: (telsiz) Rica ederim. Acele edin, sistemin sahte ihbar olduğunu anlamaları uzun sürmez.
+[MEDUSA]: (telsiz) {USER} haklı. Dispatch sunucusu şu an Queens Köprüsü'ndeki kameraları arıyor. Köprüde hiçbir şey olmadığını fark ettiklerinde geri dönecekler. Maksimum 6 dakikanız var Ducky.
+[DUCKY]: (telsiz, arkada motor ve lastik sesleri var) Bize 3 dakika yeter. Liman yoluna saptık. Zifiri karanlık burası. 
+[SPEC]: ({USER}'ın telsizinden konuşur) Depoya yaklaştığınızda farları kapatın. St4lker'a söyle, silahı kucağından ayırmasın. O elmasları teslim edene kadar kimseye güvenmiyoruz.
+[DUCKY]: (telsiz, arkada motor ve lastik sesleri var) Anlaşıldı. Depo kapısına varıyoruz... Bekle, bir terslik var.

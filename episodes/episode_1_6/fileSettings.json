@@ -1,0 +1,68 @@
+{
+  "fileSystem": {
+    "root": "/",
+    "files": [
+      {
+        "name": "task.txt",
+        "content": "NYPD Dispatch ağına sız. nypd.dispatch\n\nHEDEF: Polisleri 4. Cadde'den uzaklaştırıp, olabildiğince uzağa (QUEENS_BRIDGE bölgesine) yönlendirmek.\n\nYÖNTEM: OmniWatch uygulamasından, kameralara bakın, dispatch sistemi için kullanıcı adı ve şifreyle alakalı bir şeyler bul. Sistemin 'Acil Durum Override' paneline erişip, tüm birimleri harekete geçirecek en yüksek öncelikli sahte ihbar kodunu (Öncelik 1 - 10-13) bul ve enjekte et. örnek: inject_alert.exe 10-10:BRONX",
+        "executable": false
+      }
+    ],
+    "remoteServers": [
+      {
+        "hostname": "nypd.dispatch",
+        "htmlResponse": "<html><body><h2>[NYPD CENTRAL DISPATCH - SECTOR 4]</h2><p>Aktif Birimler: Unit-8, Unit-12, SWAT-Alpha (4th Ave Kesişimi)</p></body></html>",
+        "ip": "10.5.22.10",
+        "user": "disp_admin",
+        "password": "overwatch_26",
+        "fileSystem": {
+          "root": "/",
+          "files": [
+            {
+              "name": "active_units.log",
+              "content": "[ACTIVE_UNITS_LOG]\nUnit-8: 4th Ave & 9th St Kesişimi - Barikat Kuruldu\nUnit-12: 4th Ave & 9th St Kesişimi - Barikat Kuruldu\nSWAT-Alpha: 4th Ave & 9th St Kesişimi - Barikat Kuruldu",
+              "executable": false
+            }
+          ],
+          "directories": [
+            {
+              "name": "call_history",
+              "files": [
+                {
+                  "name": "911_recent.log",
+                  "content": "[03:42 AM] ARAYAN: Sivil (No: Gizli)\nİÇERİK: '4. Cadde'de oturuyorum, sokağın başını SWAT kesti. Neler oluyor, dışarı çıkabilir miyiz?'\nDISPATCH YANITI: 'Güvenliğiniz için lütfen evinizde kalın ve camlara yaklaşmayın.'\n\n[03:55 AM] ARAYAN: Sivil (Banka Güvenliği)\nİÇERİK: 'Kavşaktaki polisler bankanın önünü tamamen kapattı, zırhlı araç girişimiz engelleniyor.'\nDISPATCH YANITI: 'Sektör 4 geçici olarak sivil ve ticari trafiğe kapatılmıştır. Beklemede kalın.'",
+                  "executable": false
+                },
+                {
+                  "name": "radio_ch4_transcript.txt",
+                  "content": "--- TELSİZ KANAL 4 (SEKTÖR 4 TAKTİKSEL AĞ) DÖKÜMÜ ---\n[Unit-08]: Merkez, 4. Cadde barikatı tamam. Termal tarayıcılar aktif.\n[Merkez]: Anlaşıldı Unit-08. Hedef araç koyu renkli geniş hacimli bir minibüs.\n[Unit-12]: Kavşaktan geçen sivil araçları tek tek tarıyoruz. Henüz şüpheli bir ısı imzasına rastlamadık.\n[Merkez]: Gözünüzü açık tutun. Şüpheliler yüksek profilli bir soygun gerçekleştirdi, ağır silahlı oldukları tahmin ediliyor. Acil durum (10-13) kodu gelmediği sürece pozisyonunuzu koruyun.",
+                  "executable": false
+                },
+                {
+                  "name": "bolo_alerts.sys",
+                  "content": "=== B.O.L.O. (Be On the Look Out) ===\nYAYIN TARİHİ: 22 Şubat 2026\nHEDEF: Velasquez Mücevherat Soyguncuları\nARAÇ TİPİ: Siyah/Koyu renkli ticari minibüs veya panelvan.\nTEHLİKE SEVİYESİ: KRİTİK / SİLAHLI VE TEHLİKELİ\nTALİMAT: Araç tespit edilirse KESİNLİKLE doğrudan müdahale edilmeyecek. Derhal SWAT birimlerinden destek istenecek. Hedeflerin elinde tahmini 600.000 Dolar değerinde işlenmemiş elmas bulunuyor.",
+                  "executable": false
+                }
+              ]
+            },
+            {
+              "name": "emergency_override",
+              "files": [
+                {
+                  "name": "dispatch_codes.txt",
+                  "content": "[NYPD ACİL DURUM KODLARI]\n10-10: Devam Eden Suç\n10-32: Silahlı Şahıs\n10-13: POLİS MEMURU VURULDU (ÖNCELİK 1 - TÜM BİRİMLER MÜDAHALE EDER)",
+                  "executable": false
+                },
+                {
+                  "name": "inject_alert.exe",
+                  "content": "",
+                  "executable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

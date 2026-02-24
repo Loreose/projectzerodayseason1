@@ -1,0 +1,102 @@
+{
+  "id": 6,
+  "title": "sahte ihbar",
+  "description": "artık işler ciddileşiyor",
+  "objective": "Çantaları güvenli bir yere götürmek için bir şeyler yap.",
+  "target": "10.5.22.10",
+  "season": 1,
+  "episodeNumber": 6,
+  "vpnReq": true,
+  "phone": {
+    "enabled": true,
+    "appData": {
+      "MDT": {
+        "records": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Clyde",
+            "isHacker": true
+          },
+          {
+            "firstName": "Jojo Dubaku",
+            "lastName": "Magnus",
+            "isHacker": true
+          },
+          {
+            "firstName": "Tyrone",
+            "lastName": "Lewis",
+            "isHacker": true
+          },
+          {
+            "firstName": "Zero",
+            "lastName": "Reed",
+            "isHacker": true
+          },
+          {
+            "firstName": "Reggie",
+            "lastName": "Christ",
+            "isHacker": true
+          },
+          {
+            "firstName": "Cope",
+            "lastName": "Tim",
+            "isHacker": true
+          }
+        ]
+      },
+      "OmniWatch": {
+        "requiredIp": "10.5.22.10",
+        "cameras": [
+          {
+            "id": "CAM-B-401",
+            "name": "Banka Güvenlik (Dış Cephe)",
+            "street": "4th Ave & 9th St Kesişimi",
+            "feed": "Kavşak kapatılmış. İki sivil polis aracı (Unmarked) ve bir SWAT minibüsü yolu çapraz kesiyor. Memurlar yoldan geçen sivil araçlara termal tarama yapıyor."
+          },
+          {
+            "id": "CAM-T-88",
+            "name": "Trafik Kontrol (MOBESE)",
+            "street": "4th Ave Kuzey Yönü",
+            "feed": "Trafik akışı yavaşlatılmış. Polisler yoldan geçen sivil araçlara termal tarama yapıyor."
+          },
+          {
+            "id": "CAM-R-12",
+            "name": "Çatı Güvenlik (Özel Mülk)",
+            "street": "9th St. Kuzey Cephesi",
+            "feed": "Aşağıdaki kaldırımda bekleyen yayalar uzaklaştırılıyor."
+          },
+          {
+            "id": "CAM-S-05",
+            "name": "Market Vitrin Kamerası",
+            "street": "4th Ave. No: 112",
+            "feed": "Bir polis dükkanın önünde yolu kesmiş bekliyor. Elindeki el tipi termal tarayıcının ekranında, yoldan geçen araçların motor ve kabin sıcaklıkları kırmızı renkte parlıyor."
+          },
+          {
+            "id": "CAM-ATM-99",
+            "name": "ATM Geniş Açı Kamerası",
+            "street": "4th Ave Metro Girişi",
+            "feed": "Görüş açısı dar. Ekranda sadece barikatın yan tarafı ve polis yelekleri görünüyor. Bir polis memuru dizüstü bilgisayarını polis aracının kaputuna koymuş, harita üzerinden alternatif kaçış rotalarını işaretliyor."
+          },
+          {
+            "id": "CAM-UNIT-12",
+            "name": "NYPD Unit-12 (Araç İçi - Dashcam)",
+            "street": "Barikat Önü",
+            "feed": "[SESLİ] 'Merkez, Sector 4 barikatı kuruldu. Şüpheli minibüs için beklemedeyiz.' Şoför koltuğundaki memur kahve içiyor, gergin."
+          },
+          {
+            "id": "CAM-UNIT-08",
+            "name": "NYPD Unit-08 (MDT Konsol Kamerası)",
+            "street": "Barikat Arka Planı",
+            "feed": "Memur dizüstü bilgisayardan MDT Dispatch'e giriş yapıyor. Kamera açısı klavyeyi ve ekranı net görüyor. \n[SİSTEM GİRİŞİ OKUNDU]: \nKullanıcı: disp_admin \nŞifre: overwatch_26"
+          },
+          {
+            "id": "CAM-SWAT-A",
+            "name": "SWAT-Alpha (Kabin İçi)",
+            "street": "4th Ave Taktiksel Bekleyiş",
+            "feed": "Karanlık ve kırmızı iç aydınlatma. 4 ağır silahlı operatör telsiz emri bekliyor. Ekip lideri silahının emniyetini açıp kapatıyor."
+          }
+        ]
+      }
+    }
+  }
+}

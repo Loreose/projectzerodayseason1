@@ -1,0 +1,39 @@
+[ADDFUND, 0.05, 2fx1ba92encrypted_data, spec]
+[SPEC]: (telsizi kendi eline alır, sesi gerilir) Ne oldu Ducky? Polis mi?
+[DUCKY]: (telsiz) Hayır. Deponun dış kapısı... Güvenlik paneli aktif değil. Kırmızı yanıyor. MEDUSA, bizim kodları sistemden silmişler mi? İçeri giremiyoruz!
+[MEDUSA]: (telsiz) Kontrol ediyorum... Hayır. Kodlar duruyor ama deponun Local Network'u dışarıdan gelen bir sinyalle 'Lockdown' moduna alınmış. Biri bizim oraya gideceğimizi biliyordu.
+[SPEC]: (Dişlerini sıkarak) Kahretsin! Pusuya mı düştüler?
+[{USER}]: (telsiz) Limanın ağına sızabilir miyim?
+[MEDUSA]: (telsiz) Deneyebilirsin ama çok az vaktimiz var. Ducky, minibüsü siper alın. {USER}, sana deponun yerel IP'sini gönderiyorum. O kapıyı açmazsan Ducky ve St4lker sokak ortasında avlanacak.
+[SPEC]: Minibüs farları kapalı bekliyor ama liman devriyeleri her an o sokağa dönebilir. {USER}, o lanet kapıyı açman lazım!
+[MEDUSA]: (telsiz) Hedefin NY Limanı Terminal 7 Güvenlik Düğümü. Yerel IP'yi terminaline yansıtıyorum. Ağa sız, 'Lockdown' protokolünü bul ve o kapının hidroliklerini serbest bırak. 
+[{USER}]: (telsiz) İçerideki şifrelemeyi bilmiyorum, kilitlenme sebebi ne?
+[MEDUSA]: (telsiz) Sistem dışarıdan gelen bir müdahale algılamış, muhtemelen bizim daha önceki taramalarımızdan biri sistemi tetikledi. Güvenlik önlemi olarak kapı manuel onaya geçmiş. 
+[SPEC]: (telsiz) Ducky, kapının üzerinde fiziki bir numara veya kod var mı?
+[DUCKY]: (telsiz) Sadece sarı bir tabela var: "Terminal 7 - Gate A". Bekle, kapı panelinde kırmızı bir uyarı yanıp sönüyor: 'Admin Override Required'. 
+[MEDUSA]: (telsiz) {USER}, duydun. Admin sensin. Oraya dal ve kapıyı aç.
+[GÖREV]: Liman ağ geçidine sız, 'cargo_manifest' verilerini kullanarak Gate A kilidini aç ve ekibi içeri al. Acele et, zaman daralıyor.
+[SAHNE SONU]
+[TASK:task_1]
+[{USER}]: (telsiz) Kapı açıldı!
+[STALKER]: (telsiz, nefes nefese) Kapı hareket ediyor! Ducky, gaza bas, gaza bas!
+[(Telsizden acı bir lastik fren sesi ve ardından devasa bir metalin yere çarpma yankısı duyulur)]
+[STALKER]: (Kahkahalarla, histerik bir şekilde) İÇERİDEYİZ! OH BE! Yemin ederim kurşun yağmurunda İsviçre peynirine döneceğiz sanıyordum! Kapattık kapıyı! Zifiri karanlıktayız ama güvendeyiz!
+[SPEC]: (Derin bir nefes alır, {USER}'ın telsizinden) Ducky, durum raporu ver. 
+[DUCKY]: (telsiz) Arabayı konteyner bloklarının en dibine çektim. Motoru kapattık. Etraf ölüm gibi sessiz. Çantalar arka koltukta duruyor. Sıkıntı yok patron. Başardık.
+[MEDUSA]: (telsiz) Ağ trafiğini izlemeye devam ediyorum... NYPD helikopterleri limanın güneyine, açık denize doğru yöneldi. Bizi kaybettiler. Queens Köprüsü'ndeki sahte ihbarın yankıları hala Dispatch sunucularını meşgul ediyor. Manhattan sokaklarında hayalet bir minibüs arıyorlar. Sinyallerimiz tamamen temiz.
+[NINE]: (Rahatlamış bir iç çeker) Sonunda... Sabahtan beri o çantaların içindeki soğuk taşlar yüzünden sıcak terler döküyordum. Parayı henüz aklamadık ama en azından artık hapse girmeyeceğimizi biliyorum.
+[GLITCH]: (İsteksiz, mırıldanarak, elindeki telsizden) ...Kabul etmeliyim ki, fena bir iş değildi.
+[STALKER]: (telsiz) Fena değil mi? Adam bizi resmen ipten aldı Gl1tch! O kapı açılmasaydı şu an enselerimizde SWAT lazerleri dolaşıyor olurdu. 
+[GLITCH]: (telsiz) Dedim ya, işini yaptı. O kargo manifestosunu bulup sistemi kandırmak sadece 'yetenek' değil, iyi bir zeka gerektirir. {USER}'ın o ağa nasıl o kadar hızlı sızdığını hala anlamış değilim... Ama neyse. Şimdilik çenemi kapatıyorum. Sadece şimdilik.
+[{USER}]: (arkasına dönerek koltukta oturan Gl1tch'e baktı) Gözlerini ekrana bakmaktan biraz dinlendirsen iyi edersin Gl1tch, çok yoruldun.
+[GLITCH]: (Homurdanır) Benim gözlerim hiç kapanmaz.
+[SPEC]: Yeter. Herkes işini harika yaptı. Ama özellikle sen, {USER}. Ekibe sonradan katıldın, Gl1ch'in tüm o paranoyasına göğüs gerdin ve bugün kendi ağırlığının on katı kadar iş çıkardın. Bu gece Ducky ve St4lker hayattaysa, senin o klavyede harikalar yaratman sayesinde.
+[MEDUSA]: Paranızı hak ettiniz. Ama unutmayın, o elmaslar hala bizim elimizde. Para kripto cüzdanlarımıza düşene kadar bu iş bitmiş sayılmaz. Rehavete kapılmak yok.
+[SPEC]: Medusa haklı. Bugünlük aksiyon kotamızı doldurduk. Şimdi herkes hayalet moduna geçiyor. (telsiz) Ducky, St4lker... depodan dışarı adım atmayacaksınız. Nöbetleşe uyuyun ve çantaları gözünüzün önünden ayırmayın. Geri kalanlar, sistemden çıkın. Ben haber verene kadar hiç kimse birbiriyle dijital veya fiziksel temas kurmayacak.
+[NINE]: Alıcılarla ne zaman masaya oturuyoruz.
+[SPEC]: En kısa zamanda. O zamana kadar herkes karanlıkta kalsın. İyi uykular takım.
+[MEDUSA]: Güvenli ev sunucularını kapatıyorum. Loglar siliniyor. Temiz bir gece diliyorum.
+[Gün bitiminde herkes dağılır.]
+[Birbirinin gerçek yüzlerini bilenler, birlikte yol alır.]
+[{USER} ise tek başına, ara bir sokakta maskesini çıkartarak evine yürümeye başlar.]

@@ -1,0 +1,53 @@
+[[[TIMESTAMP] 2026-02-22 03.14.00 EST (Soygundan 27 Saat Sonra)]]
+[[[LOCATION] Brooklyn, Sector 4 - Güvenli Ev (Çevrimdışı Ağ)]]
+[[[PARTICIPANTS] MEDUSA, {USER}, SPEC, GLITCH, NINE, DUCKY, STALKER]]
+[SPEC]: Herkes burada mı?
+[MEDUSA]: {USER} yok.
+[SPEC]: Haberim var yolda. Hatta gelmiştir bile.
+[DUCKY]: Şu yeni çocuk mu? (sırıtır) bakalım nasıl bir tipmiş?
+[SPEC]: (güler) Sakin baylar, sakin.
+[{USER} kapıyı tıklattı]
+[SPEC]: Kim o?
+[{USER}]: Benim.
+[SPEC]: Sen kimsin?
+[{USER}]: {USER}.
+[SPEC]: Kapıyı açın.
+[{USER} içeri girdi]
+[{USER}]: (gergin şekilde maskelere bakındı) Selam millet.
+[SPEC]: Hoş geldin. {USER} gel gel, bizde senden bahsediyorduk.
+[STALKER]: ({USER}'ın yanına giderek, sırtını poh pohladı) Adamım hoş geldin!
+[DUCKY]: ({USER}'ı topuktan kafasına kadar süzdü) Hoş geldin.
+[NINE]: (Elindeki tablete bakarak) Emm, hoş geldin.
+[MEDUSA]: (Sakin bir sesle) Hoş geldin.
+[GLITCH]: (Bir şey demeden kafasını salladı ve selamladı)
+[{USER}]: (Gl1tch'e baktı, ardından diğerlerine döndü) Hoş bulduk millet.
+[NINE]: Haberleri gördünüz mü? NYPD deliye dönmüş durumda. 5th Avenue'daki Velasquez şubesinin soyulduğunu sabah 8'e, yani temizlikçiler gelene kadar fark etmemişler bile. Bütün haber kanalları bizim "Hayalet Soygun"umuzu konuşuyor.
+[STALKER]: (Gülerek) Mükemmel iş çıkardık! O çantaların içindeki elmasları eritip nakite çevirdiğimizde hepimiz Karayipler'de kendi adamızı alabileceğiz. Ben şimdiden tekne bakmaya başladım.
+[DUCKY]: Erken sevinme St4lker. Sokaklarda sivil polis kaynıyor. Bütün çıkışları tutmuşlar, köprülerde çevirme var. Çantalar hala bu odada ve o taşlar şu an radyoaktif madde gibi tehlikeli. 
+[MEDUSA]: Ducky haklı. Fiziksel olarak oradan çıkmak kolaydı çünkü kimse bizi beklemiyordu. Ama asıl savaş şimdi başlıyor. Sinyallerimizi gizli tutmalıyız.
+[{USER}]: Tuvalet nerede?
+[STALKER]: Koridorun sonu adamım.
+[{USER}]: Teşekkürler. (Ayaklandı, tuvalete yöneldi.)
+[GLITCH]: Sinyaller mi? (Alaycı bir sesle) Polisler umurumda değil. Benim derdim o polislerin nasıl kör olduğu. Dün gece uyumadım. Sistemin loglarını, bizim ağ geçidinden geçen paketleri tek tek inceledim.
+[NINE]: Yine mi aynı konu Gl1tch? Çantalar dolusu malla çıktık işte, kasanın önü tertemizdi.
+[GLITCH]: Sus N9ne, anlamıyorsun! Dün gece {USER}'ın yaptığı şey teknik olarak imkansız. Manhattan Domain Awareness System ağına sızmak... Bunu yapmak için 256-bit AES şifrelemesini brute-force ile kırman yüzyıllar sürer. Ama bizim {USER}, içeriye sadece 4 saniyede girdi!
+[[{USER} tekrar odaya geldi ve oturdu, konuşulanları anlamaya çalışıyor.]]
+[STALKER]: Bekle, 4 saniye mi? Harbiden hızlıymış.
+[GLITCH]: Olamaz işte! Zero-Day açığı falan da kullanmadı. Girdiği kapı, sızdığı port... Sistem onu tanıyordu. Ekranda yansıyan handshake protokolünü gördüm. Resmen federal bir yetkiyle içeri girdi. {USER}, o kodları nereden buldun? Söyle bana, sen kimin için çalışıyorsun?
+[{USER}]: Hey benden mi bahsediyordun? Fazla film izliyorsun Gl1tch. Paravan bir sunucu üzerinden yönlendirme yaptım, eski bir SSL sertifika açığı buldum, o kadar. Büyütülecek bir şey yok.
+[GLITCH]: Bana masal anlatma! SSL açığıymış... Ekranda terminalin arasına karışmış bir satır gördüm: 'FED_GHOST_2026'. Bu sıradan bir bypass değil. NSA veya Homeland Security arka kapısını kullandın! Ya içeriden birisin, ya da bizi bir federal operasyonun içine çekiyorsun!
+[DUCKY]: (Sesini yükselterek) Bir dakika. Gl1tch doğru mu söylüyor? {USER}, eğer peşimize FBI veya NSA taktıysan o elmasları yediririm sana. Biz NYPD'den kaçmaya çalışıyoruz, federal ajanlardan değil! Açık konuş, o yetki nereden geldi?
+[{USER}]: Benim yöntemlerim ve bağlantılarım beni ilgilendirir. Siz çantaları kasanın içinden çıkardınız, ben de sizin görünmez olmanızı sağladım. Anlaşmamız buydu Ducky, detayları sorgulamak değil. İşinize odaklanın. 
+[STALKER]: Yeter be! Adam hayatımızı kurtardı, sen burada komplo teorisi üretiyorsun Gl1tch. Federal muhbir falan olsaydı kapıda bizi SWAT ekibi bekliyor olurdu. 
+[SPEC]: Tamam susun artık.
+[MEDUSA]: (sakin şekilde konuşulanları dinliyor.)
+[SPEC]: Gl1tch, o logları sil. O bilgisayarın hard diskini de parçala ve asitle erit. {USER}'ın o sisteme nasıl girdiği umurumda değil. İsterse Pentagon'daki generallerle kahve içiyor olsun. Bize tertemiz bir çıkış sağladı. Görev başarıyla tamamlandı.
+[GLITCH]: Ama SpeC, eğer federal bir iz bırakıyorsa, hepimizin fişini çekerler--
+[SPEC]: İZ YOK! {USER}'ın kullandığı yöntem neyse, sistem onu "yasal" ve "kriptolu" bir kullanıcı olarak algıladı. Bu da demek oluyor ki, teknik olarak bir siber saldırı alarmı hiç çalmadı. Sadece bir 'kör nokta' oluştu. Şu an polisler bir hacker operasyonunu değil, büyük çaplı bir donanım arızasını araştırıyorlar. 
+[NINE]: Yani bizi dijital olarak takip edemiyorlar mı? 
+[SPEC]: Aynen öyle. Ama bu rehavete kapılacağımız anlamına gelmiyor. Taşıdığımız mallar ateş gibi sıcak. N9ne, kara borsa temaslarınla konuş, malları parçalara bölüp farklı eyaletlere dağıtacağız. 
+[STALKER]: Florida'ya gidiyor muyuz yani? 
+[SPEC]: Hayır. Ducky ve St4lker, çantaları yer altı deposuna taşıyın. Silahlarınızı hazır tutun. Gl1tch, sen polis telsizlerini ve ağ trafiğini izlemeye devam et, ama {USER}'ı deşmeyi bırak. Bu bir emirdir.
+[GLITCH]: (Homurdanarak) Anlaşıldı. Ama gözüm üzerinde {USER}. Bir yanlışında o federal yetkin bile seni elimden alamaz.
+[{USER}]: Gözün monitöründe olsun Gl1tch, hepimiz için daha güvenli olur.
+[SPEC]: Herkes işinin başına. Bu yarın gece sıfır hata istiyorum. {USER}, seninle ayrıca konuşacağız. O telefonun şarjını dolu tut ve sinyalini açık bırak. Bu sadece ilk aşamaydı... Daha yeni başlıyoruz.

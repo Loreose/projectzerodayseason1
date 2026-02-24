@@ -1,0 +1,20 @@
+[[Terminal açık, {PC_NAME} bağlantı kurdu.]]
+[{PC_NAME}]: Yeni IP ve disk işe yaradı gibi, (iç çeker) ...şimdilik kaçışımı böyle yapmam gerekiyor.
+[[Terminale izinsiz giriş belirlendi.]]
+[{PC_NAME}]: (gözlerini iyice açar) Bu da kim?! Onlardan mı?
+[SPEC]: (terminale giriş yapar) Bağlantı güvenli mi? Gecikme minimum.
+[{PC_NAME}]: Hey! Sende kimsin?
+[SPEC]: Seni uzun zamandır izliyorum. Dijital gölgelerin arasında kaybolmuş bir yetenek... Sıradan insanların göremediği desenleri görüyorsun.
+[SPEC]: (duraksar) Ben SpeC. Şimdil beni böyle tanı. Bir süre sadece benimle muhatap olacaksın.
+[SPEC]: Dünya, görünenin çok ötesinde bir yer. Perdeyi kaldırmak ve gerçeği görmek istiyorsan, kendini bana kanıtlamalısın.
+[SPEC]: Ama önce... eski kimliğinin bir önemi yok. Yeni bir isme, yeni bir maskeye ihtiyacın var.
+[SPEC]: Klasörleri listele. Sana bir not bıraktım, merak etme bilgisayarına tam erişimim yok.
+[SPEC]: İyi bir koruman var, şuanlık sadece bunları yapabiliyorum bu nedenle endişe etmene gerek yok sadece text dosyaları bırakıyorum. (sırıtır) Bilgisayarına RAT atmayacağım.
+[{PC_NAME}]: (kendi kenine konuşur, sırıtır) ...Hah.
+[SPEC]: ...Her neyse.
+[SPEC]: Kendini tanıt. Kimsin sen?
+[GÖREV]: Sisteme takma adını tanıt ve kaydını tamamla.
+[SAHNE SONU]
+[TASK:task_1]
+[{USER}]: Hazırım.
+[SPEC]: Güzel. Tanıştığıma memnun oldum {USER}.

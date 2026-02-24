@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "task_1",
+      "type": "command",
+      "target": "ssh admin@85.105.44.12",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "task_2",
+      "type": "submit",
+      "target": "transactions.db",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

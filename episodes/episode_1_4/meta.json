@@ -1,0 +1,114 @@
+{
+  "id": 4,
+  "title": "tehlikeli",
+  "description": "Yakında görüşürüz.",
+  "objective": "MEDUSA ve GLITCH için çalış ve görevlerini yerine getir.",
+  "target": "212.45.10.89",
+  "season": 1,
+  "episodeNumber": 4,
+  "vpnReq": true,
+  "phone": {
+    "enabled": true,
+    "appData": {
+      "MDT": {
+        "records": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Clyde",
+            "isHacker": true
+          },
+          {
+            "firstName": "Jojo Dubaku",
+            "lastName": "Magnus",
+            "isHacker": true
+          },
+          {
+            "firstName": "Tyrone",
+            "lastName": "Lewis",
+            "isHacker": true
+          },
+          {
+            "firstName": "Zero",
+            "lastName": "Reed",
+            "isHacker": true
+          },
+          {
+            "firstName": "Reggie",
+            "lastName": "Christ",
+            "isHacker": true
+          },
+          {
+            "firstName": "Cope",
+            "lastName": "Tim",
+            "isHacker": true
+          }
+        ]
+      },
+      "OmniWatch": {
+        "requiredIp": "212.45.10.89",
+        "cameras": [
+          {
+            "id": "CAM-01",
+            "name": "Ana Giriş (Güneşli Bulvar)",
+            "street": "5th Ave & 47th St",
+            "feed": "Kaldırımda bekleyen iki kişi tespit edildi. Biyometrik tarama yapılıyor... Eşleşme bulunamadı."
+          },
+          {
+            "id": "CAM-02",
+            "name": "VIP Teşhir Alanı",
+            "street": "İç Mekan - Zemin Kat",
+            "feed": "Lazer güvenlik sistemi devrede. Mavi spektrum algılandı. Kasaların önünde duran güvenlik görevlisi (ID: G-441) rutin turda."
+          },
+          {
+            "id": "CAM-03",
+            "name": "Özel Kasa Dairesi (Vault)",
+            "street": "B-1 Seviyesi",
+            "feed": "[KRİTİK] Sinyal şifrelenmiş. Yerel CCTV ağına bağlı. Görüntüde statik parazit var; manuel bypass (SSH) gerekiyor."
+          },
+          {
+            "id": "CAM-04",
+            "name": "Arka Sevkiyat Kapısı",
+            "street": "Arka Sokak (East Alley)",
+            "feed": "Işıklar %20 kapasiteye düşürüldü. Siyah camlı bir minibüs (Plaka: NY-7721) motor çalışır vaziyette bekliyor."
+          },
+          {
+            "id": "CAM-05",
+            "name": "Yönetici Ofisi",
+            "street": "2. Kat - Doğu Kanadı",
+            "feed": "Masa üzerindeki bilgisayar açık bırakılmış. Ekranda 'Sistem Bakımı' uyarısı yanıp sönüyor. Odada kimse yok."
+          },
+          {
+            "id": "CAM-06",
+            "name": "Asansör Holü",
+            "street": "Lobi / Asansörler",
+            "feed": "Servis asansörü B-1 katında kilitli kalmış. Kat göstergesi kırmızı yanıyor. Güvenlik protokolü manuel müdahale bekliyor."
+          },
+          {
+            "id": "CAM-07",
+            "name": "Kasa Önü (Lazer Koridoru)",
+            "street": "B-1 Seviyesi - Ana Hol",
+            "feed": "Hava akışı sensörleri aktif. Lazer ızgarası periyodik olarak yer değiştiriyor. Geçiş için 'Grid-Key' senkronizasyonu gerekli."
+          },
+          {
+            "id": "CAM-08",
+            "name": "Güvenlik İzleme Merkezi",
+            "street": "Zemin Kat - Kontrol Odası",
+            "feed": "İçeride bir görevli var, ancak kahve makinesinin başında. Monitörlerden biri (Kuyumcu Dış Cephe) parazitli görüntü veriyor. Diğer bir monitörde kullanıcı adı ve şifre yazıyor. (sec_admin, diamond_vault_99)"
+          },
+          {
+            "id": "CAM-09",
+            "name": "Acil Çıkış / Çatı",
+            "street": "Çatı Katı - Havalandırma Yanı",
+            "feed": "Rüzgar hızı yüksek. Çatı kapısının alarm switch'i devre dışı bırakılmış. Yakınlarda bir drone sinyali algılanıyor."
+          },
+          {
+            "id": "CAM-10",
+            "name": "Elektrik Odası",
+            "street": "Bodrum Kat (B-2)",
+            "feed": "Ana trafo ünitesinden kıvılcım çıkıyor. Isı sensörleri limit değerlere yakın. Birisi bypass kablosu (Jumper) bağlamış."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,414 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #00ff00;
+  --neon-green: #00ff00;
+  --neon-lime: #39ff14;
+  --neon-emerald: #50c878;
+  --neon-mint: #98ff98;
+  --dark-bg: #0a0a0a;
+  --darker-bg: #050505;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --animate-slide-down-in: slideDownIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-slide-up-out: slideUpOut 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideDownIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes slideUpOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Courier New", monospace;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Neon glow animations */
+@keyframes neon-pulse {
+  0%,
+  100% {
+    text-shadow:
+      0 0 10px var(--neon-green),
+      0 0 20px var(--neon-green),
+      0 0 30px var(--neon-green),
+      0 0 40px var(--neon-green);
+  }
+  50% {
+    text-shadow:
+      0 0 5px var(--neon-green),
+      0 0 10px var(--neon-green),
+      0 0 15px var(--neon-green),
+      0 0 20px var(--neon-green);
+  }
+}
+
+@keyframes neon-flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  24%,
+  55% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes scan-line {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Utility classes */
+.neon-text {
+  animation: neon-pulse 2s ease-in-out infinite;
+}
+
+.neon-border {
+  box-shadow:
+    0 0 10px var(--neon-green),
+    0 0 20px var(--neon-green),
+    inset 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.glitch {
+  position: relative;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 #39ff14;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 #00ff00;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% {
+    clip: rect(31px, 9999px, 94px, 0);
+  }
+  4.16667% {
+    clip: rect(91px, 9999px, 43px, 0);
+  }
+  8.33333% {
+    clip: rect(65px, 9999px, 20px, 0);
+  }
+  12.5% {
+    clip: rect(84px, 9999px, 56px, 0);
+  }
+  16.6667% {
+    clip: rect(2px, 9999px, 88px, 0);
+  }
+  20.8333% {
+    clip: rect(34px, 9999px, 13px, 0);
+  }
+  25% {
+    clip: rect(27px, 9999px, 54px, 0);
+  }
+  29.1667% {
+    clip: rect(99px, 9999px, 72px, 0);
+  }
+  33.3333% {
+    clip: rect(15px, 9999px, 8px, 0);
+  }
+  37.5% {
+    clip: rect(62px, 9999px, 45px, 0);
+  }
+  41.6667% {
+    clip: rect(77px, 9999px, 31px, 0);
+  }
+  45.8333% {
+    clip: rect(48px, 9999px, 95px, 0);
+  }
+  50% {
+    clip: rect(19px, 9999px, 66px, 0);
+  }
+  54.1667% {
+    clip: rect(83px, 9999px, 39px, 0);
+  }
+  58.3333% {
+    clip: rect(6px, 9999px, 78px, 0);
+  }
+  62.5% {
+    clip: rect(51px, 9999px, 24px, 0);
+  }
+  66.6667% {
+    clip: rect(70px, 9999px, 12px, 0);
+  }
+  70.8333% {
+    clip: rect(37px, 9999px, 85px, 0);
+  }
+  75% {
+    clip: rect(92px, 9999px, 58px, 0);
+  }
+  79.1667% {
+    clip: rect(25px, 9999px, 41px, 0);
+  }
+  83.3333% {
+    clip: rect(59px, 9999px, 17px, 0);
+  }
+  87.5% {
+    clip: rect(74px, 9999px, 96px, 0);
+  }
+  91.6667% {
+    clip: rect(11px, 9999px, 63px, 0);
+  }
+  95.8333% {
+    clip: rect(46px, 9999px, 29px, 0);
+  }
+  100% {
+    clip: rect(82px, 9999px, 5px, 0);
+  }
+}
+
+@keyframes glitch-anim2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+  4.16667% {
+    clip: rect(22px, 9999px, 47px, 0);
+  }
+  8.33333% {
+    clip: rect(88px, 9999px, 33px, 0);
+  }
+  12.5% {
+    clip: rect(14px, 9999px, 76px, 0);
+  }
+  16.6667% {
+    clip: rect(53px, 9999px, 9px, 0);
+  }
+  20.8333% {
+    clip: rect(79px, 9999px, 61px, 0);
+  }
+  25% {
+    clip: rect(35px, 9999px, 18px, 0);
+  }
+  29.1667% {
+    clip: rect(97px, 9999px, 44px, 0);
+  }
+  33.3333% {
+    clip: rect(26px, 9999px, 71px, 0);
+  }
+  37.5% {
+    clip: rect(68px, 9999px, 3px, 0);
+  }
+  41.6667% {
+    clip: rect(50px, 9999px, 86px, 0);
+  }
+  45.8333% {
+    clip: rect(7px, 9999px, 55px, 0);
+  }
+  50% {
+    clip: rect(73px, 9999px, 21px, 0);
+  }
+  54.1667% {
+    clip: rect(40px, 9999px, 92px, 0);
+  }
+  58.3333% {
+    clip: rect(16px, 9999px, 64px, 0);
+  }
+  62.5% {
+    clip: rect(81px, 9999px, 38px, 0);
+  }
+  66.6667% {
+    clip: rect(28px, 9999px, 75px, 0);
+  }
+  70.8333% {
+    clip: rect(95px, 9999px, 12px, 0);
+  }
+  75% {
+    clip: rect(57px, 9999px, 69px, 0);
+  }
+  79.1667% {
+    clip: rect(4px, 9999px, 90px, 0);
+  }
+  83.3333% {
+    clip: rect(70px, 9999px, 25px, 0);
+  }
+  87.5% {
+    clip: rect(42px, 9999px, 87px, 0);
+  }
+  91.6667% {
+    clip: rect(19px, 9999px, 52px, 0);
+  }
+  95.8333% {
+    clip: rect(84px, 9999px, 36px, 0);
+  }
+  100% {
+    clip: rect(61px, 9999px, 8px, 0);
+  }
+}
+
+/* Grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 255, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 0, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+
+/* Window Opening Animation */
+/* Window Opening Animation */
+@keyframes windowOpen {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-window-open {
+  animation: windowOpen 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Phone Camera scanline */
+@keyframes scanline {
+  0% {
+    top: 10%;
+  }
+  100% {
+    top: 90%;
+  }
+}
+
+/* OmniWatch IP gate error shake */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-8px); }
+  40%       { transform: translateX(8px); }
+  60%       { transform: translateX(-5px); }
+  80%       { transform: translateX(5px); }
+}
+
+.animate-shake {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* Custom Webkit Scrollbars for Phone App */
+.omni-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.omni-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.omni-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(225, 29, 72, 0.3); /* rose-600 with opacity */
+  border-radius: 4px;
+}
+.omni-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(225, 29, 72, 0.6);
+}
+
+.crypto-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.crypto-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.crypto-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(234, 179, 8, 0.2); /* yellow-500 with opacity */
+  border-radius: 4px;
+}
+.crypto-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(234, 179, 8, 0.4);
+}
